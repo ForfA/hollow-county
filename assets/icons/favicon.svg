@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2e6c8"/>
+      <stop offset=".55" stop-color="#c9ad80"/>
+      <stop offset="1" stop-color="#7a5634"/>
+    </linearGradient>
+    <linearGradient id="blood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a0906"/>
+      <stop offset="1" stop-color="#b3200f"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#15120e"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="10.5" fill="none" stroke="#3a2e22" stroke-width="3"/>
+  <!-- extruded shadow -->
+  <path d="M15 11h11v15h12V11h11v42H38V37H26v16H15z" fill="#2a1a10" transform="translate(2 2)"/>
+  <!-- the H -->
+  <path d="M15 11h11v15h12V11h11v42H38V37H26v16H15z" fill="url(#bone)"/>
+  <!-- blood dripping from the crossbar and right leg -->
+  <path d="M27 36h10v2.2c-1.2 0-1.6.9-1.6 2.2v7.8a2.4 2.4 0 0 1-4.8 0V41c0-1.4-.6-2.8-1.8-2.8H27z" fill="url(#blood)"/>
+  <path d="M26 36h3.2v1.4c-.7.2-1 .8-1 1.6v3.2a1.1 1.1 0 0 1-2.2 0z" fill="url(#blood)"/>
+  <path d="M42.5 53h4v3.5a2 2 0 0 1-4 0z" fill="url(#blood)"/>
+  <circle cx="21" cy="58" r="1.4" fill="#9e1b14"/>
+</svg>
