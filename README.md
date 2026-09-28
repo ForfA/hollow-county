@@ -6,7 +6,7 @@ An original browser game: the linear, key-and-door level progression of classic 
 
 ## Play
 
-**▶ Play in your browser: https://forfa.github.io/hollow-county/**
+**▶ Play in your browser: https://hollow-county.forfot.dev/**
 
 
 Open `index.html` in a desktop browser (Chrome, Edge, Firefox or Safari). No build step and no server are needed; it also works from `file://`.
