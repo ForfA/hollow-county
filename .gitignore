@@ -1,0 +1,13 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Large media is published separately (the trailer video is ~69 MB)
+trailer/*.mp4
+trailer/*.webm
+trailer/*.mov
+
+node_modules/
